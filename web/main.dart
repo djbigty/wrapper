@@ -19,7 +19,6 @@ IFrameElement videoInsert(int w, h, String domain){
   ..src = 'https://player.twitch.tv/?channel=djbigty&parent=${domain}'
   ..width = w.toString()
   ..height = h.toString();
-  print(x.src);
   return x;
 }
 Future pause(Duration d) => new Future.delayed(d);

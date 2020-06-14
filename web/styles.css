@@ -1,11 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto);
 
 html, body {
   display: block;
   width: 100%;
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
   position: fixed; 
   overflow-y: hidden;
   overflow-x: hidden;
