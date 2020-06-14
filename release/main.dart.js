@@ -932,7 +932,7 @@ u.querySelector("#player").hidden=!1
 t=p.domain
 s=u.createElement("iframe")
 s.src="https://player.twitch.tv/?channel=djbigty&parent="+H.c(t)
-s.allow="autoplay; picture-in-picture"
+s.allow='allowfullscreen="true" scrolling="no"'
 s.width=J.N(r)
 s.height=J.N(q)
 H.db(H.c(s.src))
