@@ -4,7 +4,7 @@ void main() {
   IFrameElement vid;
   int w = window.innerWidth;
   int h = window.innerHeight;
-
+  
   var d = Document();
   sleepTimer();
   querySelector('#logo').hidden = true;
