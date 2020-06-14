@@ -1,7 +1,7 @@
 import 'dart:html';
 
 void main() {
-  ObjectElement vid;
+  Element vid;
   int w = window.innerWidth;
   int h = window.innerHeight;
   
@@ -10,7 +10,7 @@ void main() {
   sleepTimer();
   querySelector('#logo').hidden = true;
   querySelector('#player').hidden = false;
-  vid = videoInsertObject(w, h, d.domain);
+  vid = videoInsert(w, h, d.domain);
   querySelector('#player').append(vid);
 }
 
