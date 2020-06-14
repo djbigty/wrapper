@@ -1,3 +1,3 @@
 git add -A
-git commit -m "err t1003"
+git commit -m "added player only"
 git push
