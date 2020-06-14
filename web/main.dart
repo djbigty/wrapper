@@ -14,6 +14,8 @@ void main() {
 }
 
 IFrameElement videoInsert(int w, h, String domain){
+  w--;
+  h--;
   IFrameElement x = IFrameElement()
   ..src = 'https://player.twitch.tv/?channel=djbigty&parent=${domain}'
   ..allow = 'allowfullscreen="true" scrolling="no"'
