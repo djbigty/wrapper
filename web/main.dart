@@ -6,6 +6,7 @@ void main() {
   int h = window.innerHeight;
   
   var d = Document();
+  print(d.domain);
   sleepTimer();
   querySelector('#logo').hidden = true;
   querySelector('#player').hidden = false;
@@ -16,7 +17,6 @@ void main() {
 IFrameElement videoInsert(int w, h, String domain){
   IFrameElement x = IFrameElement()
   ..src = 'https://player.twitch.tv/?channel=djbigty&parent=${domain}'
-  ..allow = 'allowfullscreen="true" scrolling="no"'
   ..width = w.toString()
   ..height = h.toString();
   print(x.src);
