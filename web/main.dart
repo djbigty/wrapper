@@ -5,12 +5,12 @@ void main() {
   int w = window.innerWidth;
   int h = window.innerHeight;
   
-  var d = Document();
-  print(d.domain);
+  var domain = querySelector('#domain');
+  print(domain.text);
   sleepTimer();
   querySelector('#logo').hidden = true;
   querySelector('#player').hidden = false;
-  vid = videoInsert(w, h, d.domain);
+  vid = videoInsert(w, h, domain.text);
   querySelector('#player').append(vid);
 }
 
@@ -19,6 +19,8 @@ IFrameElement videoInsert(int w, h, String domain){
   ..src = 'https://player.twitch.tv/?channel=djbigty&parent=${domain}'
   ..width = w.toString()
   ..height = h.toString();
+  print(x.srcdoc);
+
   return x;
 }
 
