@@ -1,3 +1,3 @@
 git add -A
-git commit -m "rm tracking"
+git commit -m "changed to object"
 git push

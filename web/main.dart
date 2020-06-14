@@ -1,7 +1,7 @@
 import 'dart:html';
 
 void main() {
-  IFrameElement vid;
+  ObjectElement vid;
   int w = window.innerWidth;
   int h = window.innerHeight;
   
@@ -10,13 +10,21 @@ void main() {
   sleepTimer();
   querySelector('#logo').hidden = true;
   querySelector('#player').hidden = false;
-  vid = videoInsert(w, h, d.domain);
+  vid = videoInsertObject(w, h, d.domain);
   querySelector('#player').append(vid);
 }
 
 IFrameElement videoInsert(int w, h, String domain){
   IFrameElement x = IFrameElement()
   ..src = 'https://player.twitch.tv/?channel=djbigty&parent=${domain}'
+  ..width = w.toString()
+  ..height = h.toString();
+  return x;
+}
+
+ObjectElement videoInsertObject(int w, h, String domain){
+  ObjectElement x = ObjectElement()
+  ..data = 'https://player.twitch.tv/?channel=djbigty&parent=${domain}'
   ..width = w.toString()
   ..height = h.toString();
   return x;
