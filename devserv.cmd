@@ -1,0 +1,1 @@
+pub run build_runner serve web:80 --hostname=192.168.1.99  --live-reload --delete-conflicting-outputs -v

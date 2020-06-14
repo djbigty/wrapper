@@ -1,0 +1,1 @@
+pub run build_runner watch -o web:release --release --delete-conflicting-outputs
