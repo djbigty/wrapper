@@ -13,7 +13,9 @@ IFrameElement videoInsert(int w, h, String domain){
   IFrameElement x = IFrameElement()
   ..src = 'https://player.twitch.tv/?channel=djbigty&parent=${domain}'
   ..width = w.toString()
-  ..height = h.toString();
+  ..height = h.toString()
+  ..borderEdge.width = 0
+  ..borderEdge.height = 0;
   print(x.srcdoc);
 
   return x;
