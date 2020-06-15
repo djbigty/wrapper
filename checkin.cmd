@@ -1,3 +1,3 @@
 git add -A
-git commit -m "domain player added"
+git commit -m "working and formated "
 git push
