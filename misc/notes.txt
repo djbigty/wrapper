@@ -1,0 +1,50 @@
+<allow script>
+    <div id="twitch-embed"></div>
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: 360,
+        height: 360,
+        channel: "djbigty",
+        parent: ["editor.wix.com", "www-djbigty-com.filesusr.com", "www.djbigty.com"]
+      });
+    </script>
+
+<allow script>
+    <div id="twitch-embed"></div>
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: 720,
+        height: 360,
+        channel: "djbigty",
+ 	layout: "video",
+        parent: ["editor.wix.com", "www-djbigty-com.filesusr.com", "www.djbigty.com"]
+      });
+    </script>
+
+<allow script>
+    <div id="twitch-embed"></div>
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: "100%",
+        height: "100%",
+        channel: "djbigty",
+ 	layout: "chat",
+        parent: ["editor.wix.com", "www-djbigty-com.filesusr.com", "www.djbigty.com"]
+      });
+     </script>
+
+<allow script>
+    <div id="twitch-embed"></div>
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: "100%",
+        height: "100%",
+        channel: "djbigty",
+ 	layout: "chat",
+        parent: ["editor.wix.com", "www-djbigty-com.filesusr.com", "www.djbigty.com"]
+      });
+     </script>
