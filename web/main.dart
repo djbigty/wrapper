@@ -5,11 +5,12 @@ void main() {
   int w = window.innerWidth;
   int h = window.innerHeight;
   
-  var domain = querySelector('#domain');
-  print(domain.text);
   sleepTimer();
   querySelector('#logo').hidden = true;
   querySelector('#player').hidden = false;
+  sleepTimer();
+  var domain = querySelector('#domain');
+  print(domain.text);
   vid = videoInsert(w, h, domain.text);
   querySelector('#player').append(vid);
 }
