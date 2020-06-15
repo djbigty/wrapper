@@ -930,7 +930,7 @@ u=document
 u.querySelector("#logo").hidden=!0
 u.querySelector("#player").hidden=!1
 F.af()
-t=window.document.baseURI
+t=window.document.domain
 s=u.createElement("iframe")
 s.src="https://player.twitch.tv/?channel=djbigty&parent="+H.c(t)
 s.width=J.N(r)

@@ -12,7 +12,8 @@ void main() {
   // var domain = querySelector('#domain');
   // print(domain.text);
   var d = window.document;
-  vid = videoInsert(w, h, d.baseUri);
+  // print("hello : ${d.domain}");
+  vid = videoInsert(w, h, d.domain);
   querySelector('#player').append(vid);
 }
 
