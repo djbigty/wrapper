@@ -7,5 +7,5 @@
         header_upstream X-Forwarded-Port {server_port}
         header_upstream X-Forwarded-Proto {scheme}    
     }
-    root ./dev
+    root ./release
 }

@@ -9,9 +9,10 @@ void main() {
   querySelector('#logo').hidden = true;
   querySelector('#player').hidden = false;
   sleepTimer();
-  var domain = querySelector('#domain');
-  print(domain.text);
-  vid = videoInsert(w, h, domain.text);
+  // var domain = querySelector('#domain');
+  // print(domain.text);
+  var d = document.baseUri;
+  vid = videoInsert(w, h, d);
   querySelector('#player').append(vid);
 }
 
