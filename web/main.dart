@@ -11,8 +11,8 @@ void main() {
   sleepTimer();
   // var domain = querySelector('#domain');
   // print(domain.text);
-  var d = document.baseUri;
-  vid = videoInsert(w, h, d);
+  var d = window.document;
+  vid = videoInsert(w, h, d.baseUri);
   querySelector('#player').append(vid);
 }
 
