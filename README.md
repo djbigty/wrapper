@@ -1,5 +1,6 @@
 #Wrapper
 
+Insert into html must allow for scripts.
 ```
 <p hidden id="domain"></p>
 <style>
