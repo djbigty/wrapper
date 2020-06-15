@@ -13,7 +13,7 @@ void main() {
   // print(domain.text);
   var d = window.document;
   // print("hello : ${d.domain}");
-  vid = videoInsert(w, h, d.domain);
+  vid = videoInsertObject(w, h, d.domain);
   querySelector('#player').append(vid);
 }
 

@@ -3,9 +3,9 @@ import 'dart:html';
 void main(){
   int w = window.innerWidth;
   int h = window.innerHeight;
+  var d = window.document;
   DivElement player = querySelector('#player');
-  ParagraphElement domain = querySelector('#domain');
-  var insert = videoInsert(w, h, domain.text);
+  var insert = videoInsert(w, h, d.domain);
   player.append(insert);
 }
 
