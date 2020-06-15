@@ -6,15 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="scaffolded-by" content="https://gcx.pw">
     <title>DJ Big Ty</title>
-    <!-- <link rel="stylesheet" href="https://djbigty.github.io/wrapper/release/styles.css">
-        <script defer src="https://djbigty.github.io/wrapper/release/main.dart.js"></script> -->
     <link rel="stylesheet" href="/styles.css">
     <script defer src="main.dart.js"></script>
 </head>
 
 <body>
     <h1>Hello</h1>
-    <p class="" id="player"></p>
-
+    <p id="domain"></p>
+    <div class="" id="player"></div>
+<script>
+    function myFunction() {
+        var x = document.domain;
+        document.getElementById("domain").textContent = x;
+    }
+    window.onload = function () {
+        myFunction();
+    };
+</script>
 </body>
 </html>

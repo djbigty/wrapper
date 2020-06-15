@@ -1,3 +1,3 @@
 git add -A
-git commit -m "added player only"
+git commit -m "domain player added"
 git push
